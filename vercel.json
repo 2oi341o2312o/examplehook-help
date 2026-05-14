@@ -1,0 +1,13 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)\\.(bat|exe|zip|rar|7z|msi)",
+      "headers": [
+        {
+          "key": "Content-Disposition",
+          "value": "attachment"
+        }
+      ]
+    }
+  ]
+}
